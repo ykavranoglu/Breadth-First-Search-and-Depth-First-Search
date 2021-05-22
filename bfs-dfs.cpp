@@ -90,12 +90,12 @@ int main(int argc, char* argv[])
 			}
 			for (unsigned i = 0; i < second_size; i++) {
 				if (character[0] == second[i] + 32) {
-					second_mapping[second_size - 1 - i] = unique_chars.length();	//suppressed warning C6386
+					second_mapping[second_size - 1 - i] = unique_chars.length();
 				}
 			}
 			for (unsigned i = 0; i < result_size; i++) {
 				if (character[0] == result[i] + 32) {
-					result_mapping[result_size - 1 - i] = unique_chars.length();	//suppressed warning C6386
+					result_mapping[result_size - 1 - i] = unique_chars.length();
 				}
 			}
 			unique_chars += character;
